@@ -499,6 +499,12 @@
       "power_production_today": {
         "name": "Energy production today"
       },
+      "energy_consumption_heating_this_year": {
+        "name": "Energy consumption heating this year"
+      },
+      "energy_consumption_dhw_this_year": {
+        "name": "Energy consumption DHW this year"
+      },
       "primary_circuit_return_temperature": {
         "name": "Primary circuit return temperature"
       },
