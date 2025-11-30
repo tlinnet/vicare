@@ -47,3 +47,12 @@ heating.power.consumption.total.day[0] : getPowerConsumptionToday : power consum
 heating.power.consumption.total.month[0] : getPowerConsumptionThisMonth : power consumption this month
 heating.power.consumption.total.year[0] : getPowerConsumptionThisYear : power consumption this year
 ```
+
+Mapping to nanes in string.json is also usefull
+```
+heating.power.consumption.dhw.year[0] : getPowerConsumptionDomesticHotWaterThisYear : energy_consumption_dhw_this_year : DHW energy consumption this year
+heating.power.consumption.heating.year[0] : getPowerConsumptionHeatingThisYear : energy_consumption_heating_this_year : Heating energy consumption this year
+heating.power.consumption.summary.dhw.currentYear : getPowerSummaryConsumptionDomesticHotWaterCurrentYear : energy_dhw_summary_consumption_heating_currentyear : DHW electricity consumption this year
+heating.power.consumption.summary.heating.currentYear : getPowerSummaryConsumptionHeatingCurrentYear : energy_summary_consumption_heating_currentyear : Heating electricity consumption this year
+heating.power.consumption.total.year[0] : getPowerConsumptionThisYear : power consumption this year : Electricity consumption this year
+```
