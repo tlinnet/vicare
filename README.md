@@ -15,11 +15,12 @@ With [Advanced SSH & Web Terminal Update](https://github.com/hassio-addons/addon
 cd
 cd homeassistant/custom_components
 git clone -b core_issue_155695 https://github.com/tlinnet/vicare.git
-pip install PyViCare@git+https://github.com/tlinnet/PyViCare.git@core_issue_155695 --target ./vicare
+# Possible clean previous deps
 ls -la ~/.homeassistant/deps
+ls -la ~/homeassistant/deps
 # Restart HA
 # Verify vicare Integration is marked with Red box
-# Saying: Version 0.0.1 Custom integration that replaces a Core component
+# Saying: Version 99.0.0 Custom integration that replaces a Core component
 # Enable Debug logging. After restart, logs are found in Settings -> System -> Logs -> Download logs
 
 ```

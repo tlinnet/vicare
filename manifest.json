@@ -12,6 +12,6 @@
   "integration_type": "hub",
   "iot_class": "cloud_polling",
   "loggers": ["PyViCare"],
-  "requirements": ["PyViCare@git+https://github.com/tlinnet/PyViCare.git@core_issue_155695"],
-  "version": "0.0.1"
+  "requirements": ["PyViCare@git+https://github.com/tlinnet/PyViCare.git@core_issue_155695#egg=PyViCare"],
+  "version": "99.0.0"
 }
